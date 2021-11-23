@@ -1,0 +1,23 @@
+{
+  "name": "domonda-apps-script",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domonda/domonda-apps-script.git"
+  },
+  "bugs": {
+    "url": "https://github.com/domonda/domonda-apps-script/issues"
+  },
+  "homepage": "https://github.com/domonda/domonda-apps-script#readme",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "engines": {
+    "yarn": ">=1.22.4"
+  },
+  "packageManager": "yarn@3.1.0",
+  "scripts": {
+    "push": "clasp push"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.4.1",
+    "@types/google-apps-script": "^1.0.41"
+  }
+}
